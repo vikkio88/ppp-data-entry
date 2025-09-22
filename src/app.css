@@ -1,0 +1,28 @@
+h3 {
+  text-align: center;
+}
+
+.i-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  background: transparent;
+  border: transparent;
+  cursor: pointer;
+  transform: scale(0.8);
+  color: var(--main-font-color, #000003);
+  font-size: 20px;
+  line-height: 1;
+}
+
+.i-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06);
+}
+
+.i-btn:hover,
+.i-btn:active {
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  background-color: var(--main-bg-faint-color);
+}
