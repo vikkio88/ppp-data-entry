@@ -2,6 +2,8 @@ export const strings = {
   globals: {
     next: "Next",
     stop: "Stop",
+    close: "Close",
+    add: "Add",
   },
   login: {
     title: "PPP DataEntry",
@@ -10,6 +12,8 @@ export const strings = {
   },
   collecting: {
     title: "Collecting Info for Episode %episode%",
+    description: "Topic Description",
+    adding: "Adding a new: ",
     menews: "MeNews",
     lorrowap: "Lorro-wap",
     main: "Main",

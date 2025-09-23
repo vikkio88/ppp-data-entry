@@ -1,4 +1,5 @@
-export type Author = "Lorro" | "Nick" | "Sio" | string;
+export const AUTHORS = ["Lorro", "Nick", "Sio", "Other"] as const
+export type Author = (typeof AUTHORS)[number] | string
 
 export type VotoPizze = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
 
@@ -16,12 +17,14 @@ export type Pizza = {
   descrizione?: string;
 };
 
+export type MainTopic = BaseTopic & { pizza: Pizza };
+
 export type Episode = {
   number: number;
   date?: Date;
   menews: BaseTopic[];
   lorrowap: BaseTopic[];
-  main: BaseTopic & { pizza: Pizza }[];
+  main: MainTopic[];
   dolcetto: BaseTopic[];
   amaro: BaseTopic[];
   lore: BaseTopic[];
@@ -31,3 +34,5 @@ export type Episode = {
     date: Date;
   };
 };
+
+export type CollectionType = "lorrowap" | "menews" | "main";
