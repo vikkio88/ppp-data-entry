@@ -13,7 +13,11 @@ export const strings = {
   collecting: {
     title: "Collecting Info for Episode %episode%",
     description: "Topic Description",
+    pizzaDescription: "Pizza Description",
     adding: "Adding a new: ",
+    author: "Author:",
+    authorPH: "Other Author",
+    fette: "Quette?",
     menews: "MeNews",
     lorrowap: "Lorro-wap",
     main: "Main",

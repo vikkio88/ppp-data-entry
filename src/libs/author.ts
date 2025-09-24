@@ -1,4 +1,4 @@
-import type { Author } from "../../libs/types";
+import type { Author } from "../libs/types";
 
 export const authorLabelMap: Record<Author, string> = {
   Lorro: "👨🏻‍🦱 Lorro",

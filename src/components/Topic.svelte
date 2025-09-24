@@ -1,31 +1,78 @@
 <script lang="ts">
   import { strings } from "../data/strings";
+  import type {
+    Author,
+    BaseTopic,
+    CollectionType,
+    MainTopic,
+  } from "../libs/types";
+  import app from "../store/app.svelte";
   import AuthorSelector from "./shared/AuthorSelector.svelte";
-  import Fette from "./shared/Fette.svelte";
+  import Quette from "./shared/Quette.svelte";
+  import Tags from "./shared/Tags.svelte";
+  import Timestamp from "./shared/Timestamp.svelte";
   import TopicCmd from "./shared/TopicCmd.svelte";
   type Props = {
-    title: string;
-    onAdd: () => void;
-    onCancel: () => void;
-    hasPizza?: boolean;
+    type: CollectionType;
+    onFinished: () => void;
   };
 
-  const { title, onAdd, onCancel, hasPizza = false }: Props = $props();
+  const { type, onFinished }: Props = $props();
+  const typeMap: Record<
+    CollectionType,
+    { title: string; canHavePizza: boolean }
+  > = {
+    lorrowap: { title: strings.collecting.lorrowap, canHavePizza: false },
+    menews: { title: strings.collecting.menews, canHavePizza: false },
+    main: { title: strings.collecting.main, canHavePizza: true },
+  };
+
+  const { title, canHavePizza } = typeMap[type];
+
+  let author: Author = $state("Lorro");
+  let description: Author = $state("");
+  let pizzaValue: number = $state(5);
+  let pizzaDescription: string = $state("");
+  let tags: string[] = $state([]);
 
   function onAddInternal() {
-    onAdd();
+    let body: BaseTopic = { author, description, tags: [...tags] };
+    if (type === "main") {
+      body = {
+        ...body,
+        pizza: { slices: pizzaValue, description: pizzaDescription },
+      } as MainTopic;
+    }
+
+    
+    app.add(type, body);
+    onFinished();
   }
+
   function onCancelInternal() {
-    onCancel();
+    onFinished();
   }
 </script>
 
 <div class="f1 f c pd g">
   <h3>{strings.collecting.adding}{title}</h3>
-  <AuthorSelector author="Lorro" />
-  <input type="text" placeholder={strings.collecting.description} />
-  {#if hasPizza}
-    <Fette />
+  <div class="f r g">
+    <h4>{strings.collecting.author}</h4>
+    <AuthorSelector bind:author />
+  </div>
+  <input
+    type="text"
+    placeholder={strings.collecting.description}
+    bind:value={description}
+  />
+
+  {#if canHavePizza}
+    <div class="f r g">
+      <Quette bind:value={pizzaValue} bind:description={pizzaDescription} />
+    </div>
   {/if}
+  <Timestamp />
+  <Tags bind:tags />
 </div>
+
 <TopicCmd onAdd={onAddInternal} onCancel={onCancelInternal} />

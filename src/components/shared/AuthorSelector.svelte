@@ -1,32 +1,32 @@
 <script lang="ts">
-  import  { type Author, AUTHORS } from "../../libs/types";
-  import { authorLabelMap } from "./author";
+  import { type Author, AUTHORS } from "../../libs/types";
+  import { authorLabelMap } from "../../libs/author";
+  import { strings } from "../../data/strings";
 
   type Props = {
     author?: Author;
-    onChange?: (author: Author) => void;
   };
 
-  const { author = "Other", onChange = console.log }: Props = $props();
+  let { author = $bindable("Other") }: Props = $props();
   let selectedAuthor = $state(author);
 
   const handleChange = (e: Event) => {
     const newType = (e.target as HTMLSelectElement).value as Author;
     selectedAuthor = newType;
-    onChange(newType);
+    author = newType;
   };
 </script>
 
 <div class="f r g aic">
-  <select onchange={handleChange} bind:value={selectedAuthor}>
+  <select onchange={handleChange} value={selectedAuthor}>
     {#each AUTHORS as a}
       <option value={a}>
         {authorLabelMap[a]}
       </option>
     {/each}
   </select>
-  {#if selectedAuthor=== "Other"}
-    <input type="text" placeholder="Other Author" />
+  {#if selectedAuthor === "Other"}
+    <input type="text" placeholder={strings.collecting.authorPH} bind:value={author} />
   {/if}
 </div>
 
