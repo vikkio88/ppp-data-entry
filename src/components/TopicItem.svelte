@@ -1,7 +1,10 @@
 <script lang="ts">
+  import { t } from "../data/strings";
   import { authorLabelMap } from "../libs/author";
   import { topicTypeMap } from "../libs/topics";
   import type { BaseTopic, CollectionType, MainTopic } from "../libs/types";
+  import app from "../store/app.svelte";
+  import ConfirmBtn from "./shared/ConfirmBtn.svelte";
 
   type Props = { topic: MainTopic | BaseTopic; type: CollectionType };
 
@@ -14,7 +17,8 @@
   </span>
 
   <span>
-    {authorLabelMap[topic.author]}
+    {authorLabelMap[topic.author] ||
+      `🧑 ${topic.author}`}
   </span>
 
   <span class="f1">
@@ -27,7 +31,7 @@
     </span>
   {/if}
 
-  <button class="n-btn">❌</button>
+  <ConfirmBtn onConfirm={() => app.remove(type, topic.id)}>🗑️</ConfirmBtn>
 </li>
 
 <style>

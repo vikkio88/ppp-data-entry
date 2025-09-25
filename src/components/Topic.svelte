@@ -1,5 +1,6 @@
 <script lang="ts">
   import { strings } from "../data/strings";
+  import { id } from "../libs/topics";
   import type {
     Author,
     BaseTopic,
@@ -36,7 +37,12 @@
   let tags: string[] = $state([]);
 
   function onAddInternal() {
-    let body: BaseTopic = { author, description, tags: [...tags] };
+    let body: BaseTopic = {
+      id: id(type),
+      author,
+      description,
+      tags: [...tags],
+    };
     if (type === "main") {
       body = {
         ...body,
@@ -44,7 +50,6 @@
       } as MainTopic;
     }
 
-    
     app.add(type, body);
     onFinished();
   }

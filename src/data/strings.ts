@@ -22,6 +22,11 @@ export const strings = {
     lorrowap: "Lorro-wap",
     main: "Main",
   },
+  finished: {
+    message: "You finished collecting Info for Episode %episode% of PowerPizza",
+    please: "please Download the file and share it.",
+    download: "Download",
+  },
 };
 
 export function t(str: string, params?: Record<string, string | number>) {

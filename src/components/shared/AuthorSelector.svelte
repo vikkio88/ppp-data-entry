@@ -26,7 +26,12 @@
     {/each}
   </select>
   {#if selectedAuthor === "Other"}
-    <input type="text" placeholder={strings.collecting.authorPH} bind:value={author} />
+    <input
+      type="text"
+      placeholder={strings.collecting.authorPH}
+      bind:value={author}
+      onfocus={() => (author = "")}
+    />
   {/if}
 </div>
 

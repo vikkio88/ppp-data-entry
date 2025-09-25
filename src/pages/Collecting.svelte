@@ -1,10 +1,11 @@
 <script lang="ts">
   import Topic from "../components/Topic.svelte";
   import TopicItem from "../components/TopicItem.svelte";
+  import Topics from "../components/Topics.svelte";
 
   import { t, strings } from "../data/strings";
   import { topicTypeMap } from "../libs/topics";
-  import type { BaseTopic, CollectionType } from "../libs/types";
+  import type { CollectionType } from "../libs/types";
   import app from "../store/app.svelte";
   let isEnteringData = $state(false);
   let collectionType: CollectionType | undefined = $state();
@@ -40,30 +41,7 @@
     <Topic type={collectionType} onFinished={cancel} />
   {:else}
     <div class="f1">
-      {#if app.menews.length > 0}
-        <h3>MeNews</h3>
-        <ul>
-          {#each app.menews as t}
-            <TopicItem topic={t} type="menews" />
-          {/each}
-        </ul>
-      {/if}
-      {#if app.lorrowaps.length > 0}
-        <h3>LorroWap</h3>
-        <ul>
-          {#each app.lorrowaps as t}
-            <TopicItem topic={t} type="lorrowap" />
-          {/each}
-        </ul>
-      {/if}
-      {#if app.main.length > 0}
-        <h3>Main</h3>
-        <ul>
-          {#each app.main as t}
-            <TopicItem topic={t} type="main" />
-          {/each}
-        </ul>
-      {/if}
+      <Topics />
     </div>
     <div class="cmd add">
       {#each addCommands as c}

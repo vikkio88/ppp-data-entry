@@ -1,4 +1,9 @@
-import type { BaseTopic, CollectionType, MainTopic } from "../libs/types";
+import type {
+  BaseTopic,
+  CollectionType,
+  Episode,
+  MainTopic,
+} from "../libs/types";
 
 export const PHASES = ["login", "collecting", "finished"] as const;
 export type Phase = (typeof PHASES)[number];
@@ -38,17 +43,55 @@ class AppState {
   }
 
   add(type: CollectionType, body: MainTopic | BaseTopic) {
-    switch (type) {
-      case "lorrowap":
-        this.#lorrowaps.push(body as BaseTopic);
-        break;
-      case "menews":
-        this.#menews.push(body as BaseTopic);
-        break;
-      case "main":
-        this.#main.push(body as MainTopic);
-        break;
-    }
+    const collections = {
+      lorrowap: () => this.#lorrowaps.push(body as BaseTopic),
+      menews: () => this.#menews.push(body as BaseTopic),
+      main: () => this.#main.push(body as MainTopic),
+    };
+
+    collections[type]?.();
+  }
+
+  remove(type: CollectionType, id: string) {
+    const collections = {
+      lorrowap: () =>
+        (this.#lorrowaps = this.#lorrowaps.filter((t) => t.id !== id)),
+      menews: () => (this.#menews = this.#menews.filter((t) => t.id !== id)),
+      main: () => (this.#main = this.#main.filter((t) => t.id !== id)),
+    };
+
+    collections[type]?.();
+  }
+
+  download() {
+    const title = `episode_${this.meta?.episode}`;
+    const element = document.createElement("a");
+    element.setAttribute(
+      "href",
+      "data:text/json;charset=utf-8," +
+        encodeURIComponent(
+          `${JSON.stringify(
+            {
+              number: this.meta?.episode!,
+              meta: { user: this.meta?.user, date: new Date() },
+              menews: this.#menews.map(({ id, ...rest }) => rest),
+              lorrowap: this.#lorrowaps.map(({ id, ...rest }) => rest),
+              main: this.#main.map(({ id, ...rest }) => rest),
+              dolcetto: [],
+              amaro: [],
+              lore: [],
+              others: [],
+            } as Episode,
+            null,
+            2
+          )}`
+        )
+    );
+    element.download = `${title}.json`;
+    element.style.display = "none";
+    document.body.appendChild(element);
+    element.click();
+    document.body.removeChild(element);
   }
 
   get main() {
@@ -61,6 +104,16 @@ class AppState {
 
   get menews() {
     return this.#menews;
+  }
+
+  restart() {
+    this.#phase = "login";
+
+    this.meta = undefined;
+
+    this.#lorrowaps = [];
+    this.#menews = [];
+    this.#main = [];
   }
 }
 

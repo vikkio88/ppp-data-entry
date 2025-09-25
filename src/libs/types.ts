@@ -6,6 +6,7 @@ export type VotoPizze = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
 export type Timestamp = { hours: number; minutes: number; seconds: number };
 
 export type BaseTopic = {
+  id: string;
   author: Author;
   description: string;
   tags?: string[];
@@ -19,16 +20,19 @@ export type Pizza = {
 
 export type MainTopic = BaseTopic & { pizza?: Pizza };
 
+export type BaseTopicNoId = Omit<BaseTopic, "id">;
+export type MainTopicNoId = Omit<MainTopic, "id">;
+
 export type Episode = {
   number: number;
   date?: Date;
-  menews: BaseTopic[];
-  lorrowap: BaseTopic[];
-  main: MainTopic[];
-  dolcetto: BaseTopic[];
-  amaro: BaseTopic[];
-  lore: BaseTopic[];
-  others: BaseTopic[];
+  menews: BaseTopicNoId[];
+  lorrowap: BaseTopicNoId[];
+  main: MainTopicNoId[];
+  dolcetto: BaseTopicNoId[];
+  amaro: BaseTopicNoId[];
+  lore: BaseTopicNoId[];
+  others: BaseTopicNoId[];
   meta: {
     user: string;
     date: Date;
