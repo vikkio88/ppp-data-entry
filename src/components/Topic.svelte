@@ -1,11 +1,13 @@
 <script lang="ts">
   import { strings } from "../data/strings";
+  import { isZeroTs } from "../libs/formatters";
   import { id } from "../libs/topics";
   import type {
     Author,
     BaseTopic,
     CollectionType,
     MainTopic,
+    Timestamp as TS,
   } from "../libs/types";
   import app from "../store/app.svelte";
   import AuthorSelector from "./shared/AuthorSelector.svelte";
@@ -35,13 +37,20 @@
   let pizzaValue: number = $state(5);
   let pizzaDescription: string = $state("");
   let tags: string[] = $state([]);
+  let timestamp: TS = $state({ hours: 0, minutes: 0, seconds: 0 });
+  
 
   function onAddInternal() {
+    if (description.length < 2 || author.length < 2) {
+      return;
+    }
+
     let body: BaseTopic = {
       id: id(type),
       author,
       description,
       tags: [...tags],
+      timestamp: isZeroTs(timestamp) ? undefined : timestamp,
     };
     if (type === "main") {
       body = {
@@ -76,7 +85,7 @@
       <Quette bind:value={pizzaValue} bind:description={pizzaDescription} />
     </div>
   {/if}
-  <Timestamp />
+  <Timestamp bind:timestamp />
   <Tags bind:tags />
 </div>
 

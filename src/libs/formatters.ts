@@ -1,3 +1,5 @@
+import type { Timestamp } from "./types";
+
 export function toTag(newTag: string): string {
   return (
     newTag
@@ -23,4 +25,8 @@ export function toTimestapLabel(
   const ss = String(safe(s)).padStart(2, "0");
 
   return `${hh}:${mm}:${ss}s`;
+}
+
+export function isZeroTs(ts: Timestamp) {
+  return ts.hours === 0 && ts.minutes === 0 && ts.seconds === 0;
 }

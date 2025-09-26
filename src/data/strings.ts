@@ -1,7 +1,6 @@
 export const strings = {
   globals: {
     next: "Next",
-    stop: "Stop",
     close: "Close",
     add: "Add",
   },
@@ -18,9 +17,11 @@ export const strings = {
     author: "Author:",
     authorPH: "Other Author",
     fette: "Quette?",
+    timestamp: "Timestamp",
     menews: "MeNews",
     lorrowap: "Lorro-wap",
     main: "Main",
+    finished: "Finished Collecting",
   },
   finished: {
     message: "You finished collecting Info for Episode %episode% of PowerPizza",

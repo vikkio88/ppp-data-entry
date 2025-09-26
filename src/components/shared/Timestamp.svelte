@@ -1,17 +1,32 @@
 <script lang="ts">
+  import { strings } from "../../data/strings";
   import { toTimestapLabel } from "../../libs/formatters";
+  import type { Timestamp } from "../../libs/types";
+  type Props = {
+    timestamp?: Timestamp;
+  };
+
+  let { timestamp = $bindable({ hours: 0, minutes: 0, seconds: 0 }) }: Props =
+    $props();
 
   let hasTime = $state(false);
-  let hours = $state(0);
-  let minutes = $state(0);
-  let seconds = $state(0);
+  let hours = $state(timestamp.hours);
+  let minutes = $state(timestamp.minutes);
+  let seconds = $state(timestamp.seconds);
+  function onchange() {
+    timestamp = {
+      hours,
+      minutes,
+      seconds,
+    };
+  }
 
   let timeLabel = $derived(toTimestapLabel(hours, minutes, seconds));
 </script>
 
 <article class="f c g aic">
   <div class="f r g">
-    <h3>⏱️ Timestamp</h3>
+    <h3>⏱️ {strings.collecting.timestamp}</h3>
     <input type="checkbox" bind:checked={hasTime} />
   </div>
   {#if hasTime}
@@ -19,9 +34,9 @@
       <span class="timeLabel">{timeLabel}</span>
     </div>
     <div class="controls w100 g">
-      <input type="number" min="0" max="100" bind:value={hours} />h
-      <input type="number" min="0" max="59" bind:value={minutes} />m
-      <input type="number" min="0" max="59" bind:value={seconds} />s
+      <input type="number" min="0" max="100" bind:value={hours} {onchange} />h
+      <input type="number" min="0" max="59" bind:value={minutes} {onchange} />m
+      <input type="number" min="0" max="59" bind:value={seconds} {onchange} />s
     </div>
   {/if}
 </article>

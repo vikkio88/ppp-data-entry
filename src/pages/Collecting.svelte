@@ -52,8 +52,8 @@
       {/each}
     </div>
     <div class="cmd">
-      <button class="i-btn danger" onclick={() => app.next()}>
-        {strings.globals.stop}<span>🛑</span>
+      <button class="i-btn" onclick={() => app.next()}>
+        {strings.collecting.finished}<span>🛑</span>
       </button>
     </div>
   {/if}
