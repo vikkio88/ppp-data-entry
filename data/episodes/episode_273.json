@@ -1,0 +1,31 @@
+{
+  "title": 273,
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nik",
+      "description": "The creator",
+      "pizza": {
+        "slices": 7,
+        "description": "Classica margherita con mozzarella vegana e bok choy"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Hazbin hotel",
+      "pizza": {
+        "slices": 6.9,
+        "description": "Margherita con un'oliva buonissima"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.604Z"
+  }
+}

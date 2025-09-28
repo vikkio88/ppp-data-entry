@@ -1,0 +1,23 @@
+{
+  "title": 216,
+  "main": [
+    {
+      "author": "Nik",
+      "description": "The Menu",
+      "pizza": {
+        "slices": 3,
+        "description": "pizza senza ingredienti, solo pasta"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  }
+}

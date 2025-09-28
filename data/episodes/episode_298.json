@@ -1,0 +1,23 @@
+{
+  "title": 298,
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nik",
+      "description": "Alien romulus",
+      "pizza": {
+        "slices": 6,
+        "description": "Marinara con mucillagine, bella collosa"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:57:39.781Z"
+  }
+}

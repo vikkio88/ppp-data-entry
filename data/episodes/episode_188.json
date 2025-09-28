@@ -1,0 +1,27 @@
+{
+  "title": 188,
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "The Power of the Dog"
+    },
+    {
+      "author": "Nik",
+      "description": "The Northman",
+      "pizza": {
+        "slices": 7,
+        "description": "marinara con olive"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  }
+}

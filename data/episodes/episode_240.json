@@ -1,0 +1,31 @@
+{
+  "title": 240,
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Slam Dunk il film",
+      "pizza": {
+        "slices": 8,
+        "description": "diavola con peperoncini variabili"
+      }
+    },
+    {
+      "author": "Nik",
+      "description": "Beef (Lo scontro)",
+      "pizza": {
+        "slices": 8.5,
+        "description": "margherita vegana con mozzarella vegana"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:52.055Z"
+  }
+}

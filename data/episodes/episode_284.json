@@ -1,0 +1,23 @@
+{
+  "title": 284,
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nik",
+      "description": "Il mio amico robot",
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza con il Mc & cheese sopra"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.604Z"
+  }
+}

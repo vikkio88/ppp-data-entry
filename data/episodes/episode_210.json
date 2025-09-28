@@ -1,0 +1,23 @@
+{
+  "title": 210,
+  "main": [
+    {
+      "author": "Nik",
+      "description": "Everything Everywhere All At Once",
+      "pizza": {
+        "slices": 10,
+        "description": "pizza con tutto, with everything"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  }
+}

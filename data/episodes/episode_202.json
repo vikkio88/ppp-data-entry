@@ -1,0 +1,31 @@
+{
+  "title": 202,
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "The Sandman",
+      "pizza": {
+        "slices": 7.5,
+        "description": "quattro stagioni"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Luck",
+      "pizza": {
+        "slices": 6,
+        "description": "margherita Domino's"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  }
+}

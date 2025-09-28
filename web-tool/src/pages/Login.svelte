@@ -13,7 +13,7 @@
   function handleSubmit(e: Event) {
     e.preventDefault();
     if (!isValid(name, episode)) return;
-    app.startSession({ user: name, episode: Number(episode) });
+    app.startSession({ user: name, episode });
     app.next();
   }
 </script>
@@ -23,7 +23,7 @@
   <form onsubmit={handleSubmit}>
     <input
       required
-      type="number"
+      type="text"
       bind:value={episode}
       placeholder={strings.login.episodeNumber}
     />

@@ -1,0 +1,27 @@
+{
+  "title": 118,
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Iron man",
+      "pizza": {
+        "slices": 7,
+        "description": "pizza con besciamella (pomodoro, mozzarella e besciamella), pizza stramba"
+      }
+    },
+    {
+      "author": "Other",
+      "description": "Iron man"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:32:29.487Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": 177,
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "The King",
+      "pizza": {
+        "slices": 4,
+        "description": "margherita con mezzarella di bufala, impasto mediocre"
+      }
+    },
+    {
+      "author": "Nik",
+      "description": "Neon Demon",
+      "pizza": {
+        "slices": 7,
+        "description": "marinara con funghi e rucola, crosta edibile, dentro marcio"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  }
+}

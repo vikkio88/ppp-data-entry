@@ -24,7 +24,7 @@ export type BaseTopicNoId = Omit<BaseTopic, "id">;
 export type MainTopicNoId = Omit<MainTopic, "id">;
 
 export type Episode = {
-  number: number;
+  title: string;
   date?: Date;
   menews: BaseTopicNoId[];
   lorrowap: BaseTopicNoId[];

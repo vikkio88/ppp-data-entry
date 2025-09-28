@@ -1,0 +1,23 @@
+{
+  "title": 258,
+  "main": [
+    {
+      "author": "Nik",
+      "description": "Sick of myself",
+      "pizza": {
+        "slices": 9,
+        "description": "pizza con schegge di vetro sopra, buonissima ma dolorosa"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:58.504Z"
+  }
+}

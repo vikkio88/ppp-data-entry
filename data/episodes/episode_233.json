@@ -1,0 +1,23 @@
+{
+  "title": 233,
+  "main": [
+    {
+      "author": "Nik",
+      "description": "The Elephant Whisperers",
+      "pizza": {
+        "slices": 7,
+        "description": "marinara con basilico e baingan bharta"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:52.055Z"
+  }
+}

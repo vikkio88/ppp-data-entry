@@ -1,0 +1,23 @@
+{
+  "title": 107,
+  "main": [
+    {
+      "author": "Nik",
+      "description": "High score (2020)",
+      "pizza": {
+        "slices": 10,
+        "description": "pizza bianca con formaggi americani tipo cheddar, forma strana tipo Pacman"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:27:39.141Z"
+  }
+}

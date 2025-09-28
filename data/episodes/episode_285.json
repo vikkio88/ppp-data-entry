@@ -1,0 +1,31 @@
+{
+  "title": 285,
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nik",
+      "description": "Godzilla x Kong: The new empire",
+      "pizza": {
+        "slices": 2,
+        "description": "Pizza con i croccantini nucleari"
+      }
+    },
+    {
+      "author": "Sio",
+      "description": "Argile",
+      "pizza": {
+        "slices": 7,
+        "description": "Pizza con mille patatine fritte e un chilo di maionese"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.604Z"
+  }
+}

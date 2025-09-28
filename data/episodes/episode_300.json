@@ -1,0 +1,55 @@
+{
+  "title": 300,
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Sio",
+      "description": "Monsters & co.",
+      "pizza": {
+        "slices": 1,
+        "description": "Fetta di vecchiaia"
+      }
+    },
+    {
+      "author": "Nik",
+      "description": "Alien",
+      "pizza": {
+        "slices": 1,
+        "description": "Fetta di vecchiaia"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Predator (1987)",
+      "pizza": {
+        "slices": 1,
+        "description": "Fetta di vecchiaia"
+      }
+    },
+    {
+      "author": "Nik",
+      "description": "Alien vs predator",
+      "pizza": {
+        "slices": 9,
+        "description": "Fetta di vecchiaia"
+      }
+    },
+    {
+      "author": "Lorro",
+      "description": "Love actually",
+      "pizza": {
+        "slices": 20,
+        "description": "Fette di vecchiaia"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:57:39.781Z"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": 237,
+  "main": [
+    {
+      "author": "Nik",
+      "description": "Cocaine Bear",
+      "pizza": {
+        "slices": 3,
+        "description": "marinara con miele"
+      }
+    },
+    {
+      "author": "Nik",
+      "description": "Winnie the Pooh: Blood and Honey"
+    },
+    {
+      "author": "Nik",
+      "description": "Cocaine Shark"
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:52.055Z"
+  }
+}

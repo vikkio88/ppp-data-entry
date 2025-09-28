@@ -1,0 +1,23 @@
+{
+  "title": 253,
+  "main": [
+    {
+      "author": "Nik",
+      "description": "The sound of metal",
+      "pizza": {
+        "slices": 9,
+        "description": "pizza con funghi a forma di orecchie"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:39:58.504Z"
+  }
+}

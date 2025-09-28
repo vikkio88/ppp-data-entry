@@ -1,0 +1,23 @@
+{
+  "title": 280,
+  "menews": [],
+  "lorrowap": [],
+  "main": [
+    {
+      "author": "Nik",
+      "description": "Two distant strangers",
+      "pizza": {
+        "slices": 8.5,
+        "description": "Pizza dolce con croccantini del cane, Nutella e zucchero a velo, base french toast"
+      }
+    }
+  ],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T19:52:59.604Z"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": 146,
+  "main": [
+    {
+      "author": "Nickc",
+      "description": "Nomadland",
+      "pizza": {
+        "slices": 8,
+        "description": "pizza con noodles scaldi e ambiente freddissimo"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  }
+}

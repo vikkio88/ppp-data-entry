@@ -6,7 +6,7 @@ export const strings = {
   },
   login: {
     title: "PPP DataEntry",
-    episodeNumber: "Episode Number",
+    episodeNumber: "Episode Number/Title",
     name: "Your Name/Nickname",
   },
   collecting: {

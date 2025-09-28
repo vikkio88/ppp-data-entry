@@ -18,7 +18,7 @@ class AppState {
   #phase = $state<Phase>("login");
 
   meta?: {
-    episode: number;
+    episode: string;
     user: string;
     date: Date;
   };
@@ -38,7 +38,7 @@ class AppState {
     }
   }
 
-  startSession({ episode, user }: { episode: number; user: string }) {
+  startSession({ episode, user }: { episode: string; user: string }) {
     this.meta = { episode, user, date: new Date() };
   }
 
@@ -72,7 +72,7 @@ class AppState {
         encodeURIComponent(
           `${JSON.stringify(
             {
-              number: this.meta?.episode!,
+              title: this.meta?.episode!,
               meta: { user: this.meta?.user, date: new Date() },
               menews: this.#menews.map(({ id, ...rest }) => rest),
               lorrowap: this.#lorrowaps.map(({ id, ...rest }) => rest),

@@ -1,0 +1,23 @@
+{
+  "title": 155,
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "The suicide squad",
+      "pizza": {
+        "slices": 9,
+        "description": "pizza con salame piccante e doppia mozzarella"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:39:41.660Z"
+  }
+}

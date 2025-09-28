@@ -1,0 +1,23 @@
+{
+  "title": 192,
+  "main": [
+    {
+      "author": "Lorro",
+      "description": "Chip 'n Dale: Rescue Rangers",
+      "pizza": {
+        "slices": 7,
+        "description": "con wurstel"
+      }
+    }
+  ],
+  "menews": [],
+  "lorrowap": [],
+  "dolcetto": [],
+  "amaro": [],
+  "lore": [],
+  "others": [],
+  "meta": {
+    "user": "giudycorda",
+    "date": "2025-09-28T09:44:35.987Z"
+  }
+}
