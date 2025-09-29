@@ -18,7 +18,8 @@ class AppState {
   #phase = $state<Phase>("login");
 
   meta?: {
-    episode: string;
+    title: string;
+    number: number;
     user: string;
     date: Date;
   };
@@ -38,8 +39,16 @@ class AppState {
     }
   }
 
-  startSession({ episode, user }: { episode: string; user: string }) {
-    this.meta = { episode, user, date: new Date() };
+  startSession({
+    title,
+    number,
+    user,
+  }: {
+    title: string;
+    number: number;
+    user: string;
+  }) {
+    this.meta = { title, number, user, date: new Date() };
   }
 
   add(type: CollectionType, body: MainTopic | BaseTopic) {
@@ -64,7 +73,7 @@ class AppState {
   }
 
   download() {
-    const title = `episode_${this.meta?.episode}`;
+    const title = `episode_${this.meta?.number}`;
     const element = document.createElement("a");
     element.setAttribute(
       "href",
@@ -72,7 +81,8 @@ class AppState {
         encodeURIComponent(
           `${JSON.stringify(
             {
-              title: this.meta?.episode!,
+              title: this.meta?.title!,
+              number: this.meta?.number!,
               meta: { user: this.meta?.user, date: new Date() },
               menews: this.#menews.map(({ id, ...rest }) => rest),
               lorrowap: this.#lorrowaps.map(({ id, ...rest }) => rest),

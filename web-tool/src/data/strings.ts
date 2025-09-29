@@ -6,11 +6,12 @@ export const strings = {
   },
   login: {
     title: "PPP DataEntry",
-    episodeNumber: "Episode Number/Title",
+    episodeTitle: "Episode Title",
+    episodeNumber: "Episode Number",
     name: "Your Name/Nickname",
   },
   collecting: {
-    title: "Collecting Info for Episode %episode%",
+    title: "Collecting Info for Episode: %episode%",
     description: "Topic Description",
     pizzaDescription: "Pizza Description",
     adding: "Adding a new: ",

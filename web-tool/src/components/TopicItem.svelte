@@ -45,8 +45,4 @@
     gap: 2rem;
     margin: 0 1rem;
   }
-
-  .n-btn:hover {
-    opacity: 0.7;
-  }
 </style>

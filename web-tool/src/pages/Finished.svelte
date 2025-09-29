@@ -6,7 +6,7 @@
 <h3>Finished</h3>
 
 <main class="f1 f cc">
-  <p>{t(strings.finished.message, { episode: app.meta?.episode! })}</p>
+  <p>{t(strings.finished.message, { episode: app.meta?.title! })}</p>
   <p>{strings.finished.please}</p>
   <button onclick={() => app.download()}>{strings.finished.download}</button>
   <h1 class="shake">🍕</h1>

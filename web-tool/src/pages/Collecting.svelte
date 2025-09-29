@@ -35,7 +35,7 @@
 </script>
 
 <main class="f1 f c">
-  <h2>{t(strings.collecting.title, { episode: app.meta?.episode ?? 0 })}</h2>
+  <h2>{t(strings.collecting.title, { episode: app.meta?.title ?? 0 })}</h2>
 
   {#if isEnteringData && collectionType}
     <Topic type={collectionType} onFinished={cancel} />
