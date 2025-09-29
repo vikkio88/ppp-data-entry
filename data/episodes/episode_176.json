@@ -1,12 +1,12 @@
 {
-  "title": 176,
+  "title": "176: Polvere Oven",
   "main": [
     {
       "author": "Lorro",
       "description": "Folding Ideas - Line Goes Up: The Problem With NFTs"
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "The Square",
       "pizza": {
         "slices": 9,
@@ -31,5 +31,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T09:44:35.987Z"
-  }
+  },
+  "number": 176
 }

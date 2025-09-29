@@ -1,8 +1,8 @@
 {
-  "title": 157,
+  "title": "157: Deprovevole vs Deprivevole",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Paterson",
       "pizza": {
         "slices": 9,
@@ -43,5 +43,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T09:39:41.660Z"
-  }
+  },
+  "number": 157
 }

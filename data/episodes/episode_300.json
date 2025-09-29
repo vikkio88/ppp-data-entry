@@ -1,5 +1,5 @@
 {
-  "title": 300,
+  "title": "300: Il Cassetto dei Grissini",
   "menews": [],
   "lorrowap": [],
   "main": [
@@ -12,7 +12,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Alien",
       "pizza": {
         "slices": 1,
@@ -28,7 +28,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Alien vs predator",
       "pizza": {
         "slices": 9,
@@ -51,5 +51,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:57:39.781Z"
-  }
+  },
+  "number": 300
 }

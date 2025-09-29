@@ -1,5 +1,5 @@
 {
-  "title": 242,
+  "title": "242: SNL",
   "main": [
     {
       "author": "Sio",
@@ -10,7 +10,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Hannah Gadsby: Something Special",
       "pizza": {
         "slices": 8,
@@ -35,5 +35,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:52.055Z"
-  }
+  },
+  "number": 242
 }

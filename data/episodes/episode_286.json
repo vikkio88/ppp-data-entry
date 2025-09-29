@@ -1,10 +1,10 @@
 {
-  "title": 286,
+  "title": "286: Gommo",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "The fall guy",
       "pizza": {
         "slices": 8,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:52:59.604Z"
-  }
+  },
+  "number": 286
 }

@@ -1,8 +1,8 @@
 {
-  "title": 237,
+  "title": "237: Napoli Comicon (con Errico Porzio)",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Cocaine Bear",
       "pizza": {
         "slices": 3,
@@ -10,11 +10,11 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Winnie the Pooh: Blood and Honey"
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Cocaine Shark"
     }
   ],
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:52.055Z"
-  }
+  },
+  "number": 237
 }

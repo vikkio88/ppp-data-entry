@@ -1,5 +1,5 @@
 {
-  "title": 240,
+  "title": "240: Coreano di Cognome",
   "main": [
     {
       "author": "Lorro",
@@ -10,7 +10,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Beef (Lo scontro)",
       "pizza": {
         "slices": 8.5,
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:52.055Z"
-  }
+  },
+  "number": 240
 }

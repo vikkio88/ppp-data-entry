@@ -1,10 +1,10 @@
 {
-  "title": 273,
+  "title": "273: Bip Laden",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "The creator",
       "pizza": {
         "slices": 7,
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:52:59.604Z"
-  }
+  },
+  "number": 273
 }

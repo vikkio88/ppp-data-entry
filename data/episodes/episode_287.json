@@ -1,5 +1,5 @@
 {
-  "title": 287,
+  "title": "287: Sette Fette di Una Fetta",
   "menews": [],
   "lorrowap": [],
   "main": [
@@ -12,7 +12,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Perfect blue",
       "pizza": {
         "slices": 9,
@@ -35,5 +35,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:52:59.604Z"
-  }
+  },
+  "number": 287
 }

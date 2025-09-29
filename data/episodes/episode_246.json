@@ -1,5 +1,5 @@
 {
-  "title": 246,
+  "title": "246: Radio Mare Fresco",
   "main": [
     {
       "author": "Lorro",
@@ -10,7 +10,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Joan is awful",
       "pizza": {
         "slices": 6,
@@ -35,5 +35,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:58.504Z"
-  }
+  },
+  "number": 246
 }

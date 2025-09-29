@@ -1,10 +1,10 @@
 {
-  "title": 270,
+  "title": "270: The Lorro’s Cut",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "One life",
       "pizza": {
         "slices": 6,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:52:59.603Z"
-  }
+  },
+  "number": 270
 }

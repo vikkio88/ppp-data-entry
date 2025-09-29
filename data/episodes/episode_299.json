@@ -1,10 +1,10 @@
 {
-  "title": 299,
+  "title": "299: Ginocchio",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Kneecap",
       "pizza": {
         "slices": 10,
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:57:39.781Z"
-  }
+  },
+  "number": 299
 }

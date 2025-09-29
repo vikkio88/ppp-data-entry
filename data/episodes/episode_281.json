@@ -1,10 +1,10 @@
 {
-  "title": 281,
+  "title": "281: Totti",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Kung fu panda 1-4",
       "pizza": {
         "slices": 5,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:52:59.604Z"
-  }
+  },
+  "number": 281
 }

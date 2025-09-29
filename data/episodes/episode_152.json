@@ -1,8 +1,8 @@
 {
-  "title": 152,
+  "title": "152: SPLASH!!",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Loki",
       "pizza": {
         "slices": 8,
@@ -31,5 +31,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T09:39:41.660Z"
-  }
+  },
+  "number": 152
 }

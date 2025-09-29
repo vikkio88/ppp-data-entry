@@ -1,10 +1,10 @@
 {
-  "title": 304,
+  "title": "304: Nick Lorro Pizza & Friends",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "65",
       "pizza": {
         "slices": 2,
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:57:39.781Z"
-  }
+  },
+  "number": 304
 }

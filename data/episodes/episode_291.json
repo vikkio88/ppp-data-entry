@@ -1,10 +1,10 @@
 {
-  "title": 291,
+  "title": "291: Container",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Godzilla minus one",
       "pizza": {
         "slices": 9,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:57:39.781Z"
-  }
+  },
+  "number": 291
 }

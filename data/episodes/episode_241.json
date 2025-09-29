@@ -1,12 +1,12 @@
 {
-  "title": 241,
+  "title": "241: Amalgamo",
   "main": [
     {
       "author": "Lorro",
       "description": "Spiderman: Across the Spiderverse"
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Spiderman: Across the Spiderverse",
       "pizza": {
         "slices": 9.5,
@@ -23,5 +23,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:52.055Z"
-  }
+  },
+  "number": 241
 }

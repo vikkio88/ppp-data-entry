@@ -1,5 +1,5 @@
 {
-  "title": 221,
+  "title": "221: Fuortelli 2",
   "main": [
     {
       "author": "Lorro",
@@ -18,7 +18,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "White Noise",
       "pizza": {
         "slices": 9,
@@ -34,7 +34,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Avatar 2",
       "pizza": {
         "slices": 6,
@@ -51,5 +51,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:52.055Z"
-  }
+  },
+  "number": 221
 }

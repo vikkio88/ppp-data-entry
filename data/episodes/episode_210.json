@@ -1,8 +1,8 @@
 {
-  "title": 210,
+  "title": "210: Ampolla di Veleno",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Everything Everywhere All At Once",
       "pizza": {
         "slices": 10,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T09:44:35.987Z"
-  }
+  },
+  "number": 210
 }

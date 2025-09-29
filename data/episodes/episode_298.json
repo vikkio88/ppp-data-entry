@@ -1,10 +1,10 @@
 {
-  "title": 298,
+  "title": "298: Colonia Minatoria",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Alien romulus",
       "pizza": {
         "slices": 6,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:57:39.781Z"
-  }
+  },
+  "number": 298
 }

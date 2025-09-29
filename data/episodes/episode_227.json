@@ -1,8 +1,8 @@
 {
-  "title": 227,
+  "title": "227: Appia Drift",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "The Banshees of Inisherin",
       "pizza": {
         "slices": 9,
@@ -26,5 +26,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:52.055Z"
-  }
+  },
+  "number": 227
 }

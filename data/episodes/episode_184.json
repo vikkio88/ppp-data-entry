@@ -1,5 +1,5 @@
 {
-  "title": 184,
+  "title": "184: Ultra Realtà",
   "main": [
     {
       "author": "Lorro",
@@ -10,7 +10,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Licorice Pizza",
       "pizza": {
         "slices": 9,
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T09:44:35.987Z"
-  }
+  },
+  "number": 184
 }

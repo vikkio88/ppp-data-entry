@@ -1,8 +1,8 @@
 {
-  "title": 238,
+  "title": "238: Pronomi Nobili",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Guardiani della Galassia Vol. 3",
       "pizza": {
         "slices": 10,
@@ -10,15 +10,15 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Guardiani della Galassia Holiday Special"
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Wakanda Forever"
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Antman: Quantumania"
     }
   ],
@@ -31,5 +31,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:52.055Z"
-  }
+  },
+  "number": 238
 }

@@ -1,8 +1,8 @@
 {
-  "title": 194,
+  "title": "194: Lire negli Occhi",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Nostalgia (2022)",
       "pizza": {
         "slices": 9,
@@ -31,5 +31,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T09:44:35.987Z"
-  }
+  },
+  "number": 194
 }

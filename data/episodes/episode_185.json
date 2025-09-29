@@ -1,5 +1,5 @@
 {
-  "title": 185,
+  "title": "185: Infravenoso",
   "main": [
     {
       "author": "Sio",
@@ -10,7 +10,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Flee",
       "pizza": {
         "slices": 10,
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T09:44:35.987Z"
-  }
+  },
+  "number": 185
 }

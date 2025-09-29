@@ -1,8 +1,8 @@
 {
-  "title": 203,
+  "title": "203: Hard Trama",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "The Last Bus (2021)",
       "pizza": {
         "slices": 7,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T09:44:35.987Z"
-  }
+  },
+  "number": 203
 }

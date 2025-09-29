@@ -1,8 +1,8 @@
 {
-  "title": 211,
+  "title": "211: Il Pollo è Minestrone",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Asakusa Kid",
       "pizza": {
         "slices": 8,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T09:44:35.987Z"
-  }
+  },
+  "number": 211
 }

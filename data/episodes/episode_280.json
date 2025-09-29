@@ -1,10 +1,10 @@
 {
-  "title": 280,
+  "title": "280: Mega Monza",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Two distant strangers",
       "pizza": {
         "slices": 8.5,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:52:59.604Z"
-  }
+  },
+  "number": 280
 }

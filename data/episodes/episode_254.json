@@ -1,5 +1,5 @@
 {
-  "title": 254,
+  "title": "254: Insiderito",
   "main": [
     {
       "author": "Lorro",
@@ -10,7 +10,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Inside",
       "pizza": {
         "slices": 6,
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:58.504Z"
-  }
+  },
+  "number": 254
 }

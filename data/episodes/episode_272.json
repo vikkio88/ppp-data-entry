@@ -1,10 +1,10 @@
 {
-  "title": 272,
+  "title": "272: Libro 3.0",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Poor things",
       "pizza": {
         "slices": 10,
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:52:59.603Z"
-  }
+  },
+  "number": 272
 }

@@ -1,5 +1,5 @@
 {
-  "title": 274,
+  "title": "274: Appodcast",
   "menews": [],
   "lorrowap": [],
   "main": [
@@ -12,7 +12,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Perfect days",
       "pizza": {
         "slices": 9,
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:52:59.604Z"
-  }
+  },
+  "number": 274
 }

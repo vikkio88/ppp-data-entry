@@ -1,8 +1,8 @@
 {
-  "title": 236,
+  "title": "236: Incarcerario",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "The Patient",
       "pizza": {
         "slices": 9,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:52.055Z"
-  }
+  },
+  "number": 236
 }

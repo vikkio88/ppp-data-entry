@@ -1,5 +1,5 @@
 {
-  "title": 301,
+  "title": "301: Flauna",
   "menews": [],
   "lorrowap": [],
   "main": [
@@ -12,7 +12,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "The Elephant man",
       "pizza": {
         "slices": 8,
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:57:39.781Z"
-  }
+  },
+  "number": 301
 }

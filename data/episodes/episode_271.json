@@ -1,10 +1,10 @@
 {
-  "title": 271,
+  "title": "271: Stillquillo",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Red catcher, The swan, Poison, The wonderful story of Henry Sugar",
       "pizza": {
         "slices": 8,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:52:59.603Z"
-  }
+  },
+  "number": 271
 }

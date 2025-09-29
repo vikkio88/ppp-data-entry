@@ -1,8 +1,8 @@
 {
-  "title": 107,
+  "title": "107: Menews - The Movie",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "High score (2020)",
       "pizza": {
         "slices": 10,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T09:27:39.141Z"
-  }
+  },
+  "number": 107
 }

@@ -1,10 +1,10 @@
 {
-  "title": 284,
+  "title": "284: Largocchio",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Il mio amico robot",
       "pizza": {
         "slices": 7,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:52:59.604Z"
-  }
+  },
+  "number": 284
 }

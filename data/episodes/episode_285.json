@@ -1,10 +1,10 @@
 {
-  "title": 285,
+  "title": "285: Live @ Comicon 2024",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Godzilla x Kong: The new empire",
       "pizza": {
         "slices": 2,
@@ -27,5 +27,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:52:59.604Z"
-  }
+  },
+  "number": 285
 }

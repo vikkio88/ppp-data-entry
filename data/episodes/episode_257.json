@@ -1,8 +1,8 @@
 {
-  "title": 257,
+  "title": "257: Telegiornanderson",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Asteroid city",
       "pizza": {
         "slices": 5,
@@ -35,5 +35,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:58.504Z"
-  }
+  },
+  "number": 257
 }

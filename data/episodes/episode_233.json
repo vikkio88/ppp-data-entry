@@ -1,8 +1,8 @@
 {
-  "title": 233,
+  "title": "233: Freccia Bistecca",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "The Elephant Whisperers",
       "pizza": {
         "slices": 7,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:52.055Z"
-  }
+  },
+  "number": 233
 }

@@ -1,8 +1,8 @@
 {
-  "title": 172,
+  "title": "172: Muffin Giganteschi",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "È stata la mano di Dio",
       "pizza": {
         "slices": 9,
@@ -19,5 +19,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T09:44:35.987Z"
-  }
+  },
+  "number": 172
 }

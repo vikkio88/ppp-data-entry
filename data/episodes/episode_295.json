@@ -1,10 +1,10 @@
 {
-  "title": 295,
+  "title": "295: Farina di Pollo",
   "menews": [],
   "lorrowap": [],
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Deadpool & Wolverine",
       "pizza": {
         "slices": 9,
@@ -43,5 +43,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:57:39.781Z"
-  }
+  },
+  "number": 295
 }

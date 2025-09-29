@@ -1,8 +1,8 @@
 {
-  "title": 224,
+  "title": "224: Sani-time",
   "main": [
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "House of Gucci",
       "pizza": {
         "slices": 100,
@@ -10,7 +10,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Venom: Let There Be Carnage",
       "pizza": {
         "slices": 0,
@@ -18,7 +18,7 @@
       }
     },
     {
-      "author": "Nik",
+      "author": "Nick",
       "description": "Hocus Pocus 2",
       "pizza": {
         "slices": 6,
@@ -35,5 +35,6 @@
   "meta": {
     "user": "giudycorda",
     "date": "2025-09-28T19:39:52.055Z"
-  }
+  },
+  "number": 224
 }
